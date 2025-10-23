@@ -1,3 +1,13 @@
 Home page:
-- "Kaleidoscope" (not sure if this is the right spelling)
+- "Kaleidos" (not sure if this is the right spelling)
 Background image/video behind the title that shows the mission/purpose of this organization (helping people or smth)
+
+Below the title and the background stuff:
+- "about us"
+  - When and why the kaleidos was founded
+  - members (photos of us too)
+  - long term vision
+
+New section: 
+Mission of our organization
+
