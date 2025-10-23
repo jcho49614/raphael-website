@@ -73,12 +73,13 @@ div {
 
 }
 
+
 .titlebar .maintext{
     font-size: clamp(80px, 16vw, 200px);
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     color: bisque;
-    display:center;
+    display: center;
 }
 
 .titlebar .subtext{
@@ -86,7 +87,7 @@ div {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     color:bisque;
-    display:center;
+    display: center;
 }
 
 /*-----------------------------------------------------------------------*/
