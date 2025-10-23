@@ -1,8 +1,9 @@
 .headingg {
-  align-items = center;
+  align-items: center;
 }
 
 .body-color {
-  align-items= center;
+  align-items: center;
   background-color: tomato;
 }
+
