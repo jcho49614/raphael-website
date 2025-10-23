@@ -14,3 +14,7 @@ Mission of our organization
 New page: what we do
   - explain what we do, including our activities, volunteering, service work, etc..
   - image to show us doing this
+
+New page: get involved
+  - show others how they can participate or how they can also help within their own community 
+  - contact link for inquiries
