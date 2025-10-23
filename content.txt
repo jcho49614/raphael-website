@@ -11,3 +11,6 @@ Below the title and the background stuff:
 New section: 
 Mission of our organization
 
+New page: what we do
+  - explain what we do, including our activities, volunteering, service work, etc..
+  - image to show us doing this
