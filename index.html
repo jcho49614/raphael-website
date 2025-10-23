@@ -5,39 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Raphael X Kaleidos</title>
+    <title>Raphael x Kaleidos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 
 
 <body class = "body-color">
-    
+
+<!-- Navbar -->
     <div id="navbar"></div>
 
-    <div class = "title">
-        <h1>Kaleidos Group</h1>
-    </div>
-   
-    <div class="heading">
-        <h2>The History of Raphael</h2>
-    </div>
-
-    <!--write the description of the history of raphael: check content.txt-->
-
-    <div class = "heading">
-        <h2>Our Goal</h2>
-    </div>
-
-    <!--write descrption of our general goal-->
-    <!--positioning tentative: Our goal > History of Raphael??-->
-    
-    <script>
+     <script>
         fetch('navbar.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navbar').innerHTML = data;
             });
     </script>
+
+<!-- Main Titlebar -->
+
+    <div class="titlebar">
+        <div class="maintext">KALEIDOS</div>
+        <div class="subtext">raphael nanum</div>
+    </div>
 
 </body>
 </html>

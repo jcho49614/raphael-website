@@ -1,14 +1,30 @@
 .body-color {
-    color: black;
+
 }
 
 .heading{
-    font: italic;
+    
 }
 
 .title{
     
 }
+
+html, body {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box; /* ensures padding/border don’t increase width */
+}
+
+body{
+    background-color:beige;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+/*-----------------------------------------------------------------------*/
 
 /* Navigation Bar Alignment + Color of Background */
 
@@ -26,7 +42,7 @@
   padding: 14px 20px;
   display: flex;
   align-items: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica', monospace;
 }
 
 .navigation .logo{
@@ -40,3 +56,37 @@
 .navigation .logo:hover{
   background-color: #575757;
 }
+
+/*-----------------------------------------------------------------------*/
+
+/*Raphael Title Bar*/
+
+.titlebar {
+    background-image: url("images/kaleidosphoto1.jpeg");
+    display:flex;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    flex-direction: column;
+    height: clamp(300px, 40vh, 450px);
+
+}
+
+.titlebar .maintext{
+    font-size: clamp(80px, 16vw, 200px);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: bisque;
+    display:center;
+}
+
+.titlebar .subtext{
+    font-size: clamp(40px, 3vw, 60px);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color:bisque;
+    display:center;
+}
+
+/*-----------------------------------------------------------------------*/

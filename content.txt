@@ -1,5 +1,5 @@
 Home page:
-- "Kaleidos" (not sure if this is the right spelling)
+- "Kaleidos" (not sure if this is the right spelling) It is right spelling
 Background image/video behind the title that shows the mission/purpose of this organization (helping people or smth)
 highlight stats (volutneer hours, people helped, etc...)
 slogan
@@ -20,8 +20,63 @@ New page: what we do
   - image to show us doing this
 
 New page: programs and events
-  - this page is dedicated towards
+  - this page is dedicated towards ongoing programs and stuff we are currently doing
+  - also for large events in the future (maybe annual charity drive, etc..)
 
 New page: get involved
   - show others how they can participate or how they can also help within their own community 
   - contact link for inquiries
+
+
+
+
+
+
+
+  (old version)
+Home page:
+- "Kaleidos" (not sure if this is the right spelling)
+Background image/video behind the title that shows the mission/purpose of this organization (helping people or smth)
+
+Below the title and the background stuff:
+- "about us"
+  - When and why the kaleidos was founded
+  - members (photos of us too)
+  - long term vision
+
+New section: 
+Mission of our organization
+
+New page: what we do
+  - explain what we do, including our activities, volunteering, service work, etc..
+  - image to show us doing this
+
+New page: get involved
+  - show others how they can participate or how they can also help within their own community 
+  - contact link for inquiries
+
+
+
+
+(old code)
+<!--
+    <div class = "title">
+        <h1>Kaleidos Group</h1>
+    </div>
+   
+    <div class="heading">
+        <h2>The History of Raphael</h2>
+    </div>
+
+
+
+    write the description of the history of raphael: check content.txt
+
+    <div class = "heading">
+        <h2>Our Goal</h2>
+    </div>
+
+-->
+
+    <!--write descrption of our general goal-->
+    <!--positioning tentative: Our goal > History of Raphael??-->
