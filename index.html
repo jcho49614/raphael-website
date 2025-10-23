@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Raphael X Kaleidos</title>
+</head>
+
+
+
+<body class = "body-color">
+    
+    <div id="navbar"></div>
+
+    <div class = "title">
+        <h1>Kaleidos Group</h1>
+    </div>
+   
+    <div class="heading">
+        <h2>The History of Raphael</h2>
+    </div>
+
+    <!--write the description of the history of raphael: check content.txt-->
+
+    <div class = "heading">
+        <h2>Our Goal</h2>
+    </div>
+
+    <!--write descrption of our general goal-->
+    <!--positioning tentative: Our goal > History of Raphael??-->
+    
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+
+</body>
+</html>

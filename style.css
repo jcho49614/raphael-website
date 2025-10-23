@@ -1,0 +1,42 @@
+.body-color {
+    color: black;
+}
+
+.heading{
+    font: italic;
+}
+
+.title{
+    
+}
+
+/* Navigation Bar Alignment + Color of Background */
+
+.navigation {
+  background-color: #333;
+  display:flex;
+  overflow: hidden;
+  padding: 3px 20px;
+  align-items: center;
+}
+
+.navigation .a-text {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.navigation .logo{
+    align-items: center;
+    padding: 9px 10px;
+    display: inline-block
+}
+
+
+.navigation .a-text:hover,
+.navigation .logo:hover{
+  background-color: #575757;
+}
