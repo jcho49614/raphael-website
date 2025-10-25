@@ -1,39 +1,75 @@
-.body-color {
-
+h1{
+    font-family:'Helvetica', monospace;
+    font-size:40px;
+    color:#7a6154;
 }
 
-.heading{
-    
+h3{
+    font-family:'Helvetica', monospace;
+    font-size:15px;
+    color:#7a6154;
 }
 
-.title{
-    
+.text{
+    display:flex;
+    flex-direction: column;
+    max-width:600px;
+    word-wrap: break-word;
+}
+
+.box{
+    border:1px solid black;
+    padding:12px;
+}
+
+/*image and text*/
+.container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+/*for containers*/
+.spillover{
+    display:flex;
+    justify-content: center;
+    margin:50px 0;
+    overflow:visible;
+    flex-wrap:wrap;
 }
 
 html, body {
-    margin: 10;
-    padding: 10;
+    margin: 10px;
     box-sizing: border-box; /* ensures padding/border don’t increase width */
 }
 
 body{
     background-color:beige;
+    overflow-x:auto;
 }
 
 div {
     margin-bottom: 30px;
 }
 
+
+
+
+
 /*-----------------------------------------------------------------------*/
 
 /* Navigation Bar Alignment + Color of Background */
 
 .navigation {
-  background-color: #333;
+  background-color: #7a6154;
   display:flex;
   overflow: hidden;
   padding: 3px 20px;
   align-items: center;
+
 }
 
 .navigation .a-text {
@@ -62,14 +98,18 @@ div {
 /*Raphael Title Bar*/
 
 .titlebar {
-    background-image: url("images/Kaleidosphoto1.jpeg");
+
     display:flex;
     align-items:center;
+    justify-content: center;
     background-size:cover;
     background-position:center;
     text-align:center;
     flex-direction: column;
-    height: clamp(300px, 40vh, 450px);
+    height: clamp(300px, 95vh, 1000px);
+    background:
+    linear-gradient(to bottom, rgba(245,245,220,0) 60%, rgba(245,245,220,1) 100%),
+    url("images/Kaleidosphoto1.jpeg") center/cover no-repeat;
 
 }
 
@@ -79,6 +119,7 @@ div {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     color: bisque;
+     -webkit-text-stroke: 2px white;
     text-align: center;
 }
 
@@ -87,7 +128,17 @@ div {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     color:bisque;
+     -webkit-text-stroke: 2px white;
     text-align: center;
 }
 
 /*-----------------------------------------------------------------------*/
+
+/*introimage*/
+
+.introimage{
+    width: clamp(200px, 30%, 1000px);
+    height:auto;
+    border-radius: 20px;
+    
+}
